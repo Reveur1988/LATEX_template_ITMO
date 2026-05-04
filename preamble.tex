@@ -30,7 +30,6 @@
 \usepackage{titlesec}
 % Главы: прописными, полужирный, по центру, без точки (п. 4.4.1, 4.4.4)
 \titleformat{\chapter}[hang]{\bfseries\fontsize{16pt}{18pt}\selectfont\centering}{\thechapter}{1em}{\MakeUppercase}
-{\thechapter}{1em}{\MakeUppercase}
 % Разделы: полужирный, с абзацного отступа (п. 4.4.4)
 \titleformat{\section}[hang]{\bfseries\normalsize}{\thesection}{1em}{}
 % Подразделы: обычный шрифт, с абзацного отступа (п. 4.4.4 — полужирный только для разделов)
@@ -89,9 +88,10 @@
   \renewcommand{\appendixname}{ПРИЛОЖЕНИЕ}
   % Заголовок приложения: «ПРИЛОЖЕНИЕ А» по центру, затем название (п. 4.11.2)
   \titleformat{\chapter}{\fontsize{16pt}{18pt}\selectfont\bfseries\centering}{\MakeUppercase{\chaptertitlename}.\ \thechapter}{4pt}{}
-  \addtocontents{toc}{\protect\value{tocdepth}=\chaptertocdepth}
-  \renewcommand\addchaptertocentry[2]{%
-    \addtocentrydefault{chapter}{}{\appendixname~##1 ##2}%
+  % Обновляем формат записей приложений в содержании (через tocloft)
+  \addtocontents{toc}{%
+    \protect\renewcommand{\protect\cftchappresnum}{ПРИЛОЖЕНИЕ~}%
+    \protect\setlength{\protect\cftchapnumwidth}{4.5cm}%
   }
 }
 

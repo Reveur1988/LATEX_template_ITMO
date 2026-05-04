@@ -1,0 +1,12 @@
+\contentsline {chapter}{СПИСОК СОКРАЩЕНИЙ И УСЛОВНЫХ ОБОЗНАЧЕНИЙ}{2}{}%
+\contentsline {chapter}{ТЕРМИНЫ И ОПРЕДЕЛЕНИЯ}{3}{}%
+\contentsline {chapter}{ВВЕДЕНИЕ}{4}{}%
+\contentsline {chapter}{\numberline {1}АНАЛИЗ ЛИТЕРАТУРЫ}{5}{}%
+\contentsline {section}{\numberline {1.1}Методы классификации данных}{5}{}%
+\contentsline {subsection}{\numberline {1.1.1}Машинное обучение}{5}{}%
+\contentsline {subsection}{\numberline {1.1.2}Глубокое обучение}{5}{}%
+\contentsline {section}{\numberline {1.2}Функции потерь}{5}{}%
+\contentsline {chapter}{ЗАКЛЮЧЕНИЕ}{6}{}%
+\contentsline {chapter}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{6}{}%
+\renewcommand {\cftchappresnum }{ПРИЛОЖЕНИЕ~}\setlength {\cftchapnumwidth }{4.5cm}
+\contentsline {chapter}{\numberline {А}РУКОВОДСТВО ПО ИСПОЛЬЗОВАНИЮ ШАБЛОНА}{8}{}%
